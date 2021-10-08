@@ -1,15 +1,10 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { useHistory } from "react-router";
 import "./App.css";
 import Form from "./components/Form/Form";
 import SignIn from "./components/Form/SignIn/SignIn";
 import SignUp from "./components/Form/SignUp/SignUp";
 
 function App() {
-  const history = useHistory();
-
-  const handleSignUp = () => {};
-
   return (
     <div>
       <Router>
