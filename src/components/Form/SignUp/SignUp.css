@@ -1,0 +1,105 @@
+.signup-form {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.signup-left {
+  background-image: linear-gradient(
+      to right,
+      rgba(32, 201, 151, 0.9),
+      rgba(32, 201, 151, 0.9)
+    ),
+    url(../../../images/login-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+}
+.signup-greetings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 8%;
+}
+.signup-greetings h1 {
+  font-size: 50px;
+}
+.signup-greetings h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.signup-right {
+  background-color: #000;
+  color: #fff;
+  padding: 5% !important;
+}
+
+.form-input {
+  background-color: #232a31 !important;
+  color: #adb5bd !important;
+  border: none !important;
+  padding: 4% 5% !important;
+}
+.form-input:focus {
+  color: #dee3e4 !important;
+}
+.form-label {
+  color: #dee3e4 !important;
+}
+.form-input::placeholder {
+}
+
+.text-more-option {
+  color: #dee3e4;
+  position: relative;
+}
+.text-more-option::before,
+.text-more-option::after {
+  content: "";
+  border: 1px solid #dee3e4;
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  opacity: 0.2;
+}
+.text-more-option::before {
+  left: 0;
+}
+.text-more-option::after {
+  right: 0;
+}
+.btn-custom {
+  border: none;
+  padding: 3% 6%;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #20c997;
+}
+
+.btn-social {
+  border: none;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #20c997;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.switch-link {
+  color: #20c997;
+  text-decoration-color: #20c997;
+  transition: all 0.1s;
+}
+.switch-link:hover {
+  color: #20c997;
+}
+
+@media (max-width: 668px) {
+  .signup-left {
+    display: none;
+  }
+}
